@@ -26,22 +26,20 @@ header, main, footer {
 
 
 h1 {
-color: #8000ff;
-background-color:#FF7722;
+  color: #8000ff;
+  background-color:#FF7722;
 font-family: 'Gloria Halleluja', cursive;
 font-size: 70px;
 
 }
 
 h2 {
-  background-color:#FF7722
-  color: #8000ff;
+  color: #B700FA;
 font-family: 'Gloria Hallelujah', cursive;
 }
 
 h3 {
-background-color:#FF7722;
- color: #8000ff;
+ color: #B700FA;
 }
 
 h4 {
@@ -157,12 +155,10 @@ li {
 
 /* tables */
 table, th, td {
-  background-color:#FF7722;
     border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
-  background-color:#FF7722;
     padding: 5px;
     text-align: left;
 }
@@ -204,57 +200,69 @@ color: #8000ff;
 
 /*Custom Odin Overrides*/
 .navbar {
-     background-color: #f72;
+  background-color:#FF7722;
+      color: #8000ff;
    }
 
    .navbar-brand {
-     color: #fff;
+     background-color:#FF7722;
+      color: #8000ff;
    }
 
    .navbar-brand a:link,
    .navbar-brand a:visited {
-
+     background-color:#FF7722;
+  color: #8000ff;
    }
 
    .navbar-brand a:hover,
    .navbar-brand a:active {
-
+  color: #8000ff;
+background-color:#FF7722;
    }
 
    .navbar-menu a:link,
    .navbar-menu a:visited {
-     color: #fff;
+       color: #8000ff;
+       background-color:#FF7722;
    }
 
    .navbar-menu a:hover,
    .navbar-menu a:active {
-
+  color: #8000ff;
+  background-color:#FF7722;
    }
 
     .navbar-menu.menu-shown {
-        background-color: #333;
+        color: #8000ff;
+        background-color:#FF7722;
       }
 
       .menu-toggle {
-        color: #fff;
+background-color:#FF7722;
+        color: #8000ff;
       }
 
       .menu-dismiss {
-        color: #fff;
+      background-color:#FF7722;
+        color: #8000ff;
       }
 
       .menu-shown a:link,
       .menu-shown a:visited {
-        color: #f72;
+        color: #8000ff;
+        background-color:#FF7722;
       }
 
       .menu-shown a:active,
       .menu-shown a:hover {
-
+        color: #8000ff;
+        background-color:#FF7722;
       }
 
 
 /* forms */
+
 
 
 
