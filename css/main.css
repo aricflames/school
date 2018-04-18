@@ -26,20 +26,22 @@ header, main, footer {
 
 
 h1 {
-  color: #8000ff;
-  background-color:#FF7722;
+color: #8000ff;
+background-color:#FF7722;
 font-family: 'Gloria Halleluja', cursive;
 font-size: 70px;
 
 }
 
 h2 {
-  color: #B700FA;
+  background-color:#FF7722
+  color: #8000ff;
 font-family: 'Gloria Hallelujah', cursive;
 }
 
 h3 {
- color: #B700FA;
+background-color:#FF7722;
+ color: #8000ff;
 }
 
 h4 {
@@ -155,10 +157,12 @@ li {
 
 /* tables */
 table, th, td {
+  background-color:#FF7722;
     border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
+  background-color:#FF7722;
     padding: 5px;
     text-align: left;
 }
