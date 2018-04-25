@@ -1,0 +1,269 @@
+/* Color Palette
+  White: #ffffff;
+  Black: #000000;
+  Medium Gray: #999999;
+  Light Gray: #dddddd;
+  Light blue: #99ffff;
+*/
+
+
+/*********** Begin Layout Styles ***********/
+body {
+  background-color: #8000ff;
+}
+
+div.container {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; /* disable this line if you want full-width layouts */
+}
+
+header, main, footer {
+  padding: 15px;
+  margin: 15px;
+}
+
+
+h1 {
+  color: #8000ff;
+  background-color:#FF7722;
+font-family: 'Gloria Halleluja', cursive;
+font-size: 70px;
+
+}
+
+h2 {
+  color: #B700FA;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3 {
+ color: #B700FA;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+/* Paragraphs and lists */
+
+p {
+  background-color:#FF7722;
+  max-width: 100%;
+    color: #8000ff;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+ol {
+
+}
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 20px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 20px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+li {
+
+}
+
+/* tables */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+/* images */
+img {
+background-color:#FFFFFF;
+max-width: 100%;
+}
+.center{
+   display: block;
+   margin: 0 auto;
+}
+
+iframe{
+   max-width: 100%;
+}
+
+/* links */
+
+a:link {
+  background-color:#FF7722;
+  color: #8000ff;
+}
+a:visited {
+  background-color:#FF7722;
+  color: #8000ff;
+}
+
+a:hover {
+  background-color:#FF7722;
+  color: #8000ff;
+    opacity: 0.7;
+}
+
+a:active {
+  background-color:#FF7722;
+color: #8000ff;
+}
+
+/*Custom Odin Overrides*/
+.navbar {
+  background-color:#FF7722;
+      color: #8000ff;
+   }
+
+   .navbar-brand {
+     background-color:#FF7722;
+      color: #8000ff;
+   }
+
+   .navbar-brand a:link,
+   .navbar-brand a:visited {
+     background-color:#FF7722;
+  color: #8000ff;
+   }
+
+   .navbar-brand a:hover,
+   .navbar-brand a:active {
+  color: #8000ff;
+background-color:#FF7722;
+   }
+
+   .navbar-menu a:link,
+   .navbar-menu a:visited {
+       color: #8000ff;
+       background-color:#FF7722;
+   }
+
+   .navbar-menu a:hover,
+   .navbar-menu a:active {
+  color: #8000ff;
+  background-color:#FF7722;
+   }
+
+    .navbar-menu.menu-shown {
+        color: #8000ff;
+        background-color:#FF7722;
+      }
+
+      .menu-toggle {
+background-color:#FF7722;
+        color: #8000ff;
+      }
+
+      .menu-dismiss {
+      background-color:#FF7722;
+        color: #8000ff;
+      }
+
+      .menu-shown a:link,
+      .menu-shown a:visited {
+        color: #8000ff;
+        background-color:#FF7722;
+      }
+
+      .menu-shown a:active,
+      .menu-shown a:hover {
+        color: #8000ff;
+        background-color:#FF7722;
+      }
+
+
+/* forms */
+
+
+
+
+/*********** End Content Styles ***********/
